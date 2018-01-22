@@ -18,7 +18,7 @@ $(document).on('click','a.text-dark',function(e){
 });
 
 $(".d-inline-block.mb-2.text-success").each(function(){
-	if($(this).text() == "Política" || $(this).text() == "Home")
+	if($(this).text() == "Política" || $(this).text() == "Home" )
 	{
 		$(this).removeClass("text-success");
 		$(this).addClass("text-warning");
